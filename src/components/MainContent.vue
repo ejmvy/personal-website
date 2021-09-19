@@ -12,8 +12,8 @@
       md:mt-44
     "
   >
-    <CssImage />
-    <MainText :main-header="mainHeader" :main-message="mainMessage" />
+    <CssImage data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" />
+    <MainText :main-header="mainHeader" />
   </div>
 </template>
 
@@ -31,11 +31,7 @@ export default defineComponent({
 
   setup() {
     const mainHeader = "Hi, i'm EJ";
-
-    const mainMessage =
-      "I'm a front end developer born and based in Dublin. I enjoy all things CSS, Vue, Typescript & Node.";
-
-    return { mainHeader, mainMessage };
+    return { mainHeader };
   },
 });
 </script>
