@@ -48,7 +48,7 @@
           :key="link.name"
         >
           <li class="flex flex-col items-center">
-            <img class="w-6 h-6" :src="require(`../../public/${link.logo}`)" />
+            <img class="w-6 h-6" :src="require(`../assets/${link.logo}`)" />
             <a :href="link.srcLink" target="_blank">{{ link.name }}</a>
           </li>
         </ul>
