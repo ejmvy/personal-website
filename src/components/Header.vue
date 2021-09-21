@@ -19,7 +19,7 @@
             "
           >
             <a class="" :href="link.srcLink" target="_blank">{{ link.name }}</a>
-            <img class="w-28 no-display" src="../../public/underline-img.png" />
+            <img class="w-28 no-display" src="../assets/underline-img.png" />
           </li>
         </ul>
       </div>
