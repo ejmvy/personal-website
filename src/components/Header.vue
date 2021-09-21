@@ -12,13 +12,13 @@
             class="
               px-4
               cursor-pointer
-              hover:text-gray-700
+              hover:text-gray-100
               flex flex-col
               items-center
               nav-link
             "
           >
-            <a class="" :href="link.srcLink" target="_blank">{{ link.name }}</a>
+            <a :href="link.srcLink" target="_blank">{{ link.name }}</a>
             <img class="w-28 no-display" src="../assets/underline-img.png" />
           </li>
         </ul>
